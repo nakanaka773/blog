@@ -1,0 +1,25 @@
+.writer_box{
+    width: 20vw;
+    height: 35vh;
+    float: right;
+    margin-right: 8vw;
+    border: 1px solid rgb(169, 182, 203);
+    border-radius: 9px;
+    box-shadow: 6px 6px 10px 0px rgba(0, 0, 0, 0.4);
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+.writer_box img{
+    width: 5vw;
+}
+
+.writer_img{
+    width: 5vw;
+    margin: 2vh auto;
+}
+
+.name{
+    text-align: center;
+}

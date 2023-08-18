@@ -1,0 +1,26 @@
+{
+  "name": "blog_nana",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/material": "^5.14.5",
+    "dompurify": "^3.0.5",
+    "microcms-js-sdk": "^2.5.0",
+    "next": "13.4.17",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.7",
+    "react-tabs": "^6.0.2",
+    "remark-gfm": "^3.0.1",
+    "sanitize-html": "^2.11.0"
+  }
+}

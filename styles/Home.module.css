@@ -1,0 +1,56 @@
+
+
+.title{
+  color: black;
+  background-color: white;
+  text-decoration: none;
+  padding-left: 14px;
+  margin-bottom: 0;
+
+}
+
+.box{
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .16);
+  color: #212121;
+  text-decoration: none;
+  width: 22vw;
+  height: 39vh;
+  border-radius: 1vw;
+}
+
+.blogall{
+  padding-top: 5vh;
+  padding-bottom: 15vh;
+  margin-left: 2.7vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  width: 48vw;
+  gap:4vw
+}
+
+.topImg{
+  width: 22vw;
+  
+}
+
+.publishdate{
+  color: gray;
+  background-color: white;
+  padding-left: 14px;
+  font-size: small;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.content{
+  color: gray;
+  background-color: white;
+  padding-left: 14px;
+  font-size: small;
+}
