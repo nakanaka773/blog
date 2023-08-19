@@ -1,9 +1,11 @@
+@media (min-width: 768px) {
 .taball {
     /* タブ全体のスタイル設定 */
     margin-top: 10vh;
     margin-bottom: 10vh;
     width: 60vw;
     margin-left: 8vw;
+    margin-right: 0;
 }
 
 .tab_title {
@@ -33,4 +35,43 @@
 .selected {
     background-color: #5f82c7; /* 選択されているタブの背景を黒に設定 */
     color: #fff; /* 選択されているタブの文字色を白に設定 */
+}
+
+}
+/* スマートフォンや小さな画面向けのスタイル */
+@media (max-width: 768px) {
+    .taball {
+        width: 100vw;
+        height: 70vh;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+    
+    .tab_title {
+        margin-top: 10vh;
+        display: flex;
+        margin: 10vh auto;
+    }
+
+    .tab {
+        background-color: #d3d3d3; /* 未選択のタブの背景を白に設定 */
+        color: #50afbb; /* 未選択のタブの文字色を黒に設定 */
+        border: none;
+        outline: none;
+        width: 20vw;
+        height: 6vh;
+        border-radius: 3px;
+        text-align: center;
+        list-style:none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 2px 0 0px rgba(0, 0, 0, 0.35);
+    }
+
+    .selected {
+        background-color: #5f82c7; /* 選択されているタブの背景を黒に設定 */
+        color: #fff; /* 選択されているタブの文字色を白に設定 */
+    }
 }

@@ -28,7 +28,7 @@ export default function Home({ blog }) {
   return (
     <div>
       <Header />
-      <Writer />
+      
       <Tabs className={tabstyles.taball} selectedIndex={selectedIndex} onSelect={index => setSelectedIndex(index)}>
         <TabList className={tabstyles.tab_title}>
           <Tab className={`${tabstyles.tab} ${selectedIndex === 0 ? tabstyles.selected : ''}`}>全記事</Tab>
@@ -100,6 +100,7 @@ export default function Home({ blog }) {
           </div>
         </TabPanel>
       </Tabs>
+      <Writer />
 
     </div>
   )

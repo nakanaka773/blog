@@ -1,5 +1,5 @@
 
-
+@media (min-width: 768px) {
 .title{
   color: black;
   background-color: white;
@@ -22,7 +22,7 @@
 .blogall{
   padding-top: 5vh;
   padding-bottom: 15vh;
-  margin-left: 2.7vw;
+  margin-left: 0vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
@@ -53,4 +53,55 @@
   background-color: white;
   padding-left: 14px;
   font-size: small;
+}
+
+
+}
+
+@media (max-width: 768px) {
+  .title{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding-left: 3vw;
+  
+  }
+  
+  .box{
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .16);
+    color: #212121;
+    text-decoration: none;
+    width: 80vw;
+    height: 40vh;
+    border-radius: 3vw;
+  }
+  
+  .blogall{
+    width: 80vw;
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  .topImg{
+    width: 80vw;
+    
+  }
+  
+  .publishdate{
+    color: gray;
+    background-color: white;
+    padding-left: 3vw;
+  }
+  
+  .link{
+    text-decoration: none;
+  }
+  
+  .content{
+    color: gray;
+    background-color: white;
+    padding-left: 14px;
+    font-size: small;
+  }
 }
