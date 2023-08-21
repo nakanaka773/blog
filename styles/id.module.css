@@ -1,3 +1,4 @@
+/* デスクトップ版　*/
 @media (min-width: 768px) {
 .title{
     margin-top: 10vh;
@@ -48,8 +49,10 @@
     background: #25292f; /* 背景色 */
     color: #fff; /* 文字色 */
     white-space: pre-wrap; /* はみ出たときに折り返す */
-    width: 52vw;
+    width: 44vw;
     font-size: large;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
 }
 
 .content li{

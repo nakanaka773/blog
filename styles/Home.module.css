@@ -5,6 +5,7 @@
   background-color: white;
   text-decoration: none;
   padding-left: 14px;
+  padding-right: 14px;
   margin-bottom: 0;
 
 }
@@ -77,6 +78,7 @@
     border-radius: 3vw;
     margin-bottom: 10vh;
     padding-bottom: 3vh;
+
   }
   
   .blogall{
