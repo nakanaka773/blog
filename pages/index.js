@@ -27,8 +27,10 @@ export default function Home({ blog }) {
   };
 
   return (
+    <div>
+    <Header />
     <div className={styles.content}>
-      <Header />
+      
       
       <Tabs className={tabstyles.taball} selectedIndex={selectedIndex} onSelect={index => setSelectedIndex(index)}>
         <TabList selectedIndex={selectedIndex} onSelect={setSelectedIndex} />
@@ -48,6 +50,7 @@ export default function Home({ blog }) {
         </TabPanel>
       </Tabs>
       <Writer />
+    </div>
     </div>
   );
 }
