@@ -1,0 +1,13 @@
+
+
+
+@media (min-width: 768px) {
+    .content{
+        display: flex;
+    }
+
+}
+
+
+    
+@media (max-width: 768px) {}

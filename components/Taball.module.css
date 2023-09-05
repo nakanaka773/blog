@@ -11,7 +11,7 @@
 .tab_title {
     /* タブリストのスタイル設定 */
     display: flex;
-    margin-left:-3vw;
+    margin-left:0;
 }
 
 .tab {
@@ -48,9 +48,9 @@
     }
     
     .tab_title {
-        margin-top: 10vh;
         display: flex;
         margin: 10vh auto;
+        justify-content: center;
     }
 
     .tab {

@@ -45,14 +45,15 @@ export default function BlogId({ blog }) {
     return(
         <main>
             <Header />
-            
+            <div className={styles.contents}>
             <div className={styles.content}>
                 <h1 className={styles.title}>{blog.title}</h1>
                 <p className={styles.publishdate}>{new Date(blog.publishedAt).toISOString().split('T')[0]}</p>
                 <img className={styles.topImg} src={blog.topImg.url} alt="" />
                 <div dangerouslySetInnerHTML={{__html: cleanHtml}}></div>
             </div>
-            <Writer />
+            <Writer className={styles.writer} />
+            </div>
         </main>
     );
 }
