@@ -53,8 +53,6 @@
     padding-top: 2vh;
     padding-bottom: 2vh;
     border-radius: 5px; /* 角丸 */
-    background: #25292f; /* 背景色 */
-    color: #fff; /* 文字色 */
     white-space: pre-wrap; /* はみ出たときに折り返す */
     width: 44vw;
     font-size: large;
@@ -113,8 +111,6 @@
         padding-top: 2vh;
         padding-bottom: 2vh;
         border-radius: 5px; /* 角丸 */
-        background: #25292f; /* 背景色 */
-        color: #fff; /* 文字色 */
         white-space: pre-wrap; /* はみ出たときに折り返す */
         width: 52vw;
         font-size: large;
