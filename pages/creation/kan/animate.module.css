@@ -1,0 +1,29 @@
+.correct{
+    width: 15vw;
+    height: 50vh;
+    background-color: rgb(239, 239, 239);
+    float: left;
+    margin-left: 5vw;
+    text-align: center;
+    margin-top: 20vh;
+    padding: 3vw;
+    
+}
+
+.box{
+    position: fixed;
+}
+
+.text{
+    font-size: 10vw;
+
+}
+
+.name{
+    font-size: 3vw;
+    width: 15vw;
+    overflow-wrap:wrap;
+
+    
+}
+

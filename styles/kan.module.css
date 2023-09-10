@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic&family=DotGothic16&family=Hachi+Maru+Pop&family=Klee+One&family=Kosugi&family=Murecho&family=Potta+One&family=Rampart+One&family=Reggae+One&family=RocknRoll+One&family=Stick&family=Yuji+Boku&family=Yuji+Mai&family=Yusei+Magic&family=Zen+Antique&family=Zen+Kurenaido&family=Zen+Old+Mincho:wght@400;500&display=swap');
+
+
+.content {
+    width: 70vw;
+    font-size: 10vw;
+    display: flex;
+  flex-wrap: wrap;
+  gap: 2vw;
+  float: right;
+  margin-top: 20vh;
+  }
+
+  .content div:nth-child() {
+    flex-grow: 1;
+  }
+
+  
+.content p{
+    font-size: 10vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+.incorrect{
+    display: flex;
+    background-color: blue;
+    width: 70vw;
+    height: 50vh;
+    flex-direction: column;
+    align-items: center;
+}
+
