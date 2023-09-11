@@ -44,6 +44,7 @@ const Modal = ({ isOpen, content, onClose }) => {
           <>
             <p style={{ fontFamily: content.selectedFontFamily }}>「間」違いです！</p>
             <p style={{ fontFamily: content.selectedFontFamily }}>あなたが選んだのは{content.selectedFontFamily}です</p>
+            <p class={styles.kan} style={{ fontFamily: content.selectedFontFamily }}>間</p>
           </>
         )}
         

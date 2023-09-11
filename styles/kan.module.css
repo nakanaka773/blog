@@ -59,6 +59,10 @@
   float: right;
 }
 
+.kan {
+  font-size: 4vw;
+}
+
 @media screen and (max-width: 480px) {
 	/* 480px以下に適用されるCSS（スマホ用） */
 
@@ -116,11 +120,16 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
   text-align: center;
   margin-top:-25vh;
+  height: 22vh;
 }
 
 .modalContent .batsu {
   font-size: 6vw;
   float: right;
+}
+
+.kan {
+  font-size: 6vw;
 }
 
 }
