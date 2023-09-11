@@ -1,13 +1,20 @@
 .correct{
     width: 15vw;
     height: 50vh;
-    background-color: rgb(239, 239, 239);
     float: left;
     margin-left: 5vw;
     text-align: center;
     margin-top: 20vh;
     padding: 3vw;
-    
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .16);
+    color: #212121;
+    text-decoration: none;
+    border-radius: 1vw;
 }
 
 .box{
@@ -15,15 +22,53 @@
 }
 
 .text{
-    font-size: 10vw;
+    font-size: 8vw;
+
 
 }
 
 .name{
-    font-size: 3vw;
+    font-size: 2vw;
     width: 15vw;
     overflow-wrap:wrap;
 
     
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+
+    .correct{
+        width: 60vw;
+        height: 10vh;
+        text-align: center;
+        padding: 3vw;
+        z-index: 5;
+        background-color: #fff;
+        box-shadow: 0 0 8px rgba(0, 0, 0, .16);
+        color: #212121;
+        text-decoration: none;
+        border-radius: 1vw;
+        margin: 10vh 15vw;
+    }
+    
+    .box{
+        position: fixed;
+    }
+    
+    .text{
+        font-size: 8vw;
+    
+    
+    }
+    
+    .name{
+        font-size: 2vw;
+        width: 15vw;
+        overflow-wrap:wrap;
+    
+        
+    }
+
 }
 
