@@ -39,7 +39,10 @@ const Modal = ({ isOpen, content, onClose }) => {
       <div className={styles.modalContent}>
       <div onClick={onClose} class={styles.batsu}>×</div>
         {content.isCorrect ? (
+          <>
           <p style={{ fontFamily: content.selectedFontFamily }}>「間」違い探しのプロです！</p>
+          <p class={styles.kan2} style={{ fontFamily: content.selectedFontFamily }}>間</p>
+          </>
         ) : (
           <>
             <p style={{ fontFamily: content.selectedFontFamily }}>「間」違いです！</p>
