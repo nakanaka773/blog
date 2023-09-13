@@ -61,8 +61,8 @@ const QuizQuestion = () => {
   const [options, setOptions] = useState([
     {  fontFamily: 'Noto Sans Japanese' },
     {  fontFamily: 'Noto Serif Japanese' },
-    { fontFamily: 'M PLUS Rounded 1c' },
-    { fontFamily: 'M PLUS 1p' },
+
+
     { fontFamily: 'Sawarabi Mincho' },
     { fontFamily: 'Sawarabi Gothic' },
     { fontFamily: 'Zen Kaku Gothic New' },
@@ -70,7 +70,7 @@ const QuizQuestion = () => {
     { fontFamily: 'BIZ UDPGothic' },
     { fontFamily: 'Shippori Mincho' },
     { fontFamily: 'Kiwi Maru' },
-    { fontFamily: 'M PLUS 1' },
+
     { fontFamily: 'Yuji Mai' },
     { fontFamily: 'Zen Old Mincho' },
     { fontFamily: 'Kosugi' },
@@ -78,7 +78,7 @@ const QuizQuestion = () => {
     { fontFamily: 'Zen Antique' },
     { fontFamily: 'Shippori Mincho B1' },
     { fontFamily: 'Zen Kaku Gothic Antique' },
-    { fontFamily: 'M PLUS 2' },
+
     { fontFamily: 'Kaisei Decol' },
     { fontFamily: 'Zen Kurenaido' },
     { fontFamily: 'Dela Gothic One' },
@@ -107,7 +107,7 @@ const QuizQuestion = () => {
     { fontFamily: 'Train One' },
     { fontFamily: 'Zen Antique Soft' },
     { fontFamily: 'Shippori Antique B1' },
-    { fontFamily: 'M PLUS 1 Code' },
+
     { fontFamily: 'BIZ UDMincho' },
     { fontFamily: 'Yuji Boku' },
     { fontFamily: 'Kosugi Maru' },
