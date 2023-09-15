@@ -1,0 +1,41 @@
+.content{
+    position: relative;
+    font-size: 320px;
+}
+
+
+.tura,.bou{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.bou{
+    z-index: 1000;
+}
+
+.button{
+    text-decoration: none;
+    background-color: rgb(209, 131, 131);
+    border: none;
+    color: white;
+    padding: 2vh 3vw;
+    border-radius: 100vh;
+    margin: 0 auto;
+    margin-top: 4vh;
+
+}
+
+.buttonblock{
+    display: flex;
+    width: 40vw;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.next{
+    margin-top: 4vh;
+    color: rgb(209, 131, 131);
+}

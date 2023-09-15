@@ -7,12 +7,14 @@ import styles from './Header.module.css';
 import Link from 'next/link'; // Link コンポーネントをインポート
 
 
+
+
 export default function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar className={styles.header} position="static">
         <Toolbar variant="dense" style={{ justifyContent: 'center' }}>
-            <Link className={styles.link} href="/"> {/* ここでLinkを追加 */}
+            <Link className={styles.link} href="/blog"> {/* ここでLinkを追加 */}
                 <Typography variant="h6" color="inherit" component="div" style={{cursor: 'pointer'}}>
                 なかなかぶろぐ
                 </Typography>
